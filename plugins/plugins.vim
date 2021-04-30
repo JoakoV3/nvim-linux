@@ -3,11 +3,8 @@ call plug#begin('~/.vim/plugged')
 " Temas
 " Themes
 Plug 'morhetz/gruvbox'
-Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'sheerun/vim-polyglot'
-Plug 'joshdick/onedark.vim'
-Plug 'safv12/andromeda.vim'
-Plug 'ghifarit53/tokyonight-vim'
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
 " "IDE
 Plug 'easymotion/vim-easymotion'
@@ -44,5 +41,10 @@ Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
+"Smooth srolling in vim
+Plug 'psliwka/vim-smoothie'
+
+
+
 "_____________________________
 call plug#end()
