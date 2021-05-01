@@ -6,7 +6,6 @@
 "╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
 "𝕓𝕪 𝕁𝕠𝕒𝕢𝕦𝕚𝕟 𝕍𝕒𝕣𝕖𝕝𝕒 𝕐𝕋               
 "https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A					    
-
 "---------------------------------vim config---------------------------- 
 syntax on 
 set number 
@@ -39,8 +38,6 @@ vnoremap > >gv
 "-------------------------------Sources-------------------------------
 source $HOME/.config/nvim/plugins/plugins.vim
 source $HOME/.config/nvim/plugins/plug-config.vim
-source $HOME/.config/nvim/themes/onedark.vim
-luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 "--------------------------------Plugins Config--------------------------------------------
 "save file
 "guardar archivo
@@ -59,9 +56,6 @@ nmap <leader>rg :Rg<CR>
 "configuracion de tabs
 let g:indentLine_enabled = 1
 let g:indentLine_char = '▏'
-let g:indentLine_faster = 1
-let g:indentLine_fileTypeExclude=["nerdtree"]
-
 "abrir Nerdtree
 "open nerdtree
 nmap <Leader>e :NERDTreeToggle<CR>
@@ -79,13 +73,12 @@ nnoremap <silent> <TAB> :bnext<CR>
 nnoremap <silent> <S-TAB> :bprevious<CR>
 "close buffer
 "cerrar buffer
-nmap <leader>bd :bdelete<CR>
+nmap <leader>bu :bdelete<CR>
 "--gruvbox config--
 let g:material_terminal_italics = 1
-let g:material_theme_style = 'palenight'
+let g:material_theme_style = 'darker'
 colorscheme material
 "let g:gruvbox_contrast_dark = "medium"
-
 set termguicolors
 "let g:tokyonight_style = 'night' " available: night, storm
 "let g:tokyonight_enable_italic = 1

@@ -15,8 +15,6 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 
-"ChadTree (Nerdtree Alternative )
-Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 
 "Airline
 Plug 'vim-airline/vim-airline'
@@ -30,8 +28,6 @@ Plug 'alvan/vim-closetag'
 "FZF
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim',
-"colorizer plugin for #fe4918
-Plug 'norcalli/nvim-colorizer.lua'
 "Multiple cursor like in vscode
 Plug 'terryma/vim-multiple-cursors'
 "Have the indent lines 
