@@ -3,18 +3,22 @@ call plug#begin('~/.vim/plugged')
 " Temas
 " Themes
 Plug 'morhetz/gruvbox'
-Plug 'sheerun/vim-polyglot'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+Plug 'joshdick/onedark.vim'
 
 " "IDE
 Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
+
 "NERDTREE
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 
+"More Highlighting
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+Plug 'sheerun/vim-polyglot'
 
 "Airline
 Plug 'vim-airline/vim-airline'
