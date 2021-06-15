@@ -50,11 +50,9 @@ let g:signify_sign_change            = '~'
 "treesitter
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-  ignore_install = { "javascript" }, -- List of parsers to ignore installing
+  ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
   highlight = {
     enable = true,              -- false will disable the whole extension
-    disable = { "c", "rust" },  -- list of language that will be disabled
   },
 }
 EOF
@@ -73,9 +71,9 @@ hi Comment cterm=italic
 let g:onedark_hide_endofbuffer=1
 let g:onedark_terminal_italics=1
 let g:onedark_termcolors=256
-
+let g:gruvbox_dark_hard="medium"
 syntax on
-colorscheme onedark
+colorscheme gruvbox
 
 
 " checks if your terminal has 24-bit color support
