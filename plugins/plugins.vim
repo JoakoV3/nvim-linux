@@ -19,7 +19,6 @@ Plug 'ryanoasis/vim-devicons'
 "More Highlighting
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'sheerun/vim-polyglot'
-
 "Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

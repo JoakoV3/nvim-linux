@@ -13,7 +13,7 @@ source $HOME/.config/nvim/plugins/coc-config.vim
 
 " enable tabline
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = ''
 let g:airline#extensions#tabline#right_sep = ''
 let g:airline#extensions#tabline#right_alt_sep = ''
@@ -73,7 +73,7 @@ let g:onedark_terminal_italics=1
 let g:onedark_termcolors=256
 let g:gruvbox_dark_hard="medium"
 syntax on
-colorscheme gruvbox
+colorscheme onedark
 
 
 " checks if your terminal has 24-bit color support
